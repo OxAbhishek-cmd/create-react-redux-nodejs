@@ -1,0 +1,14 @@
+{
+  "name": "create-react-redux-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm-run-all --parallel install-backend install-frontend",
+    "install-backend": "cd backend && npm install",
+    "install-frontend": "cd frontend && npm install",
+    "run-all":"concurrently \"cd backend && npm run start\" \"cd frontend && npm run start\""
+  },
+  "author": "",
+  "license": "ISC"
+}
