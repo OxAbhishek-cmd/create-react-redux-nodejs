@@ -1,8 +1,7 @@
 {
   "name": "create-react-redux-nodejs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "template":"git+https://github.com/OxAbhishek-cmd/create-react-redux-nodejs.git",
   "scripts": {
     "install-all": "npm-run-all --parallel install-backend install-frontend",
     "install-backend": "cd backend && npm install",
